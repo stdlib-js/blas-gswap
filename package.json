@@ -48,6 +48,7 @@
     "@stdlib/types": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/array-filled-by": "^0.0.x",
     "@stdlib/array-float32": "^0.0.x",
     "@stdlib/array-float64": "^0.0.x",
     "@stdlib/array-int32": "^0.0.x",

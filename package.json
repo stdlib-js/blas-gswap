@@ -45,6 +45,7 @@
     "@stdlib/blas-base-dswap": "^0.0.x",
     "@stdlib/blas-base-gswap": "^0.0.x",
     "@stdlib/blas-base-sswap": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/types": "^0.0.x"
   },
   "devDependencies": {

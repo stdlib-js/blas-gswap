@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gswap from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gswap@deno/mod.js';
+import gswap from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gswap@v0.2.1-deno/mod.js';
 ```
 
 #### gswap( x, y )
@@ -100,7 +100,7 @@ The function has the following parameters:
 ```javascript
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import gswap from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gswap@deno/mod.js';
+import gswap from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gswap@v0.2.1-deno/mod.js';
 
 var rand1 = discreteUniform( 0, 100 );
 var x = filledarrayBy( 10, 'generic', rand1 );

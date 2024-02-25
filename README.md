@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gswap from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gswap@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-gswap/tags). For example,
+
+```javascript
 import gswap from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gswap@v0.2.1-deno/mod.js';
 ```
 
@@ -100,7 +105,7 @@ The function has the following parameters:
 ```javascript
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import gswap from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gswap@v0.2.1-deno/mod.js';
+import gswap from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gswap@deno/mod.js';
 
 var rand1 = discreteUniform( 0, 100 );
 var x = filledarrayBy( 10, 'generic', rand1 );
